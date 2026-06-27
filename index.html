@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FreshBite — Order Delicious Food Online</title>
+  <meta name="description" content="Order fresh, tasty food online from FreshBite. Fast delivery, wide variety, best prices." />
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍴</text></svg>" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/navbar.css" />
+  <link rel="stylesheet" href="css/home.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div id="navbar-container"></div>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-left">
+        <div class="hero-badge">🚀 30-Minute Delivery Guaranteed</div>
+        <h1>
+          Hungry? Order
+          <span class="highlight">Delicious Food</span>
+          Delivered Fast!
+        </h1>
+        <p>
+          Explore hundreds of mouth-watering dishes — from spicy biryanis to creamy pastas.
+          Fresh ingredients, great taste, delivered right to your door.
+        </p>
+        <div class="hero-actions">
+          <button class="btn btn-primary" onclick="document.getElementById('menu').scrollIntoView({behavior:'smooth'})">
+            🍽️ Order Now
+          </button>
+          <button class="btn btn-ghost" onclick="document.getElementById('menu').scrollIntoView({behavior:'smooth'})">
+            📋 View Menu
+          </button>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item"><div class="stat-num">500+</div><div class="stat-label">Dishes</div></div>
+          <div class="stat-item"><div class="stat-num">50K+</div><div class="stat-label">Customers</div></div>
+          <div class="stat-item"><div class="stat-num">4.9★</div><div class="stat-label">Rating</div></div>
+          <div class="stat-item"><div class="stat-num">30 Min</div><div class="stat-label">Avg. Delivery</div></div>
+        </div>
+      </div>
+      <div class="hero-img-grid" id="hero-img-grid">
+        <!-- Injected by home.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CATEGORIES ===== -->
+  <section class="categories-section">
+    <div class="container">
+      <div class="section-heading">Browse by Category</div>
+      <div class="cats-scroll" id="cats-scroll">
+        <!-- Injected by home.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROMO BANNERS ===== -->
+  <section class="promo-section">
+    <div class="container">
+      <div class="section-heading">Today's Offers</div>
+      <div class="promo-grid" id="promo-grid">
+        <!-- Injected by home.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MENU ===== -->
+  <section class="menu-section" id="menu">
+    <div class="container">
+      <div class="section-heading">Our Menu</div>
+
+      <!-- Veg / Non-Veg Tabs -->
+      <div class="menu-tabs" id="menu-tabs">
+        <!-- Injected by home.js -->
+      </div>
+
+      <!-- ---- VEG SECTION ---- -->
+      <div id="veg-section" style="margin-bottom:48px">
+        <div class="section-heading" style="font-size:18px;margin-bottom:16px">
+          <span style="color:var(--green)">🟢</span> Vegetarian
+        </div>
+        <div class="food-grid" id="veg-food-grid">
+          <!-- Injected by home.js -->
+        </div>
+      </div>
+
+      <!-- ---- NON-VEG SECTION ---- -->
+      <div id="nonveg-section">
+        <div class="section-heading" style="font-size:18px;margin-bottom:16px">
+          <span style="color:var(--red)">🔴</span> Non-Vegetarian
+        </div>
+        <div class="food-grid" id="nonveg-food-grid">
+          <!-- Injected by home.js -->
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer style="background:var(--nav);color:#B0C4DE;padding:44px 0 24px;margin-top:40px">
+    <div class="container">
+      <div style="display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:32px;margin-bottom:36px">
+        <div>
+          <div style="font-size:24px;font-weight:900;color:#fff;margin-bottom:12px">
+            Fresh<span style="color:var(--orange)">Bite</span> 🍴
+          </div>
+          <p style="font-size:13px;line-height:1.7">
+            Your go-to food delivery app for fresh, tasty meals delivered fast.
+            We partner with the best local restaurants to bring you quality food at great prices.
+          </p>
+          <div style="display:flex;gap:10px;margin-top:16px">
+            <a href="#" style="background:rgba(255,255,255,0.1);border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:16px;transition:background 0.2s" onmouseover="this.style.background='rgba(255,107,44,0.3)'" onmouseout="this.style.background='rgba(255,255,255,0.1)'">f</a>
+            <a href="#" style="background:rgba(255,255,255,0.1);border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:16px;transition:background 0.2s" onmouseover="this.style.background='rgba(255,107,44,0.3)'" onmouseout="this.style.background='rgba(255,255,255,0.1)'">𝕏</a>
+            <a href="#" style="background:rgba(255,255,255,0.1);border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:16px;transition:background 0.2s" onmouseover="this.style.background='rgba(255,107,44,0.3)'" onmouseout="this.style.background='rgba(255,255,255,0.1)'">in</a>
+          </div>
+        </div>
+        <div>
+          <div style="font-weight:700;color:#fff;margin-bottom:14px;font-size:14px">Quick Links</div>
+          <div style="display:flex;flex-direction:column;gap:9px;font-size:13px">
+            <a href="index.html" style="color:#B0C4DE;transition:color 0.2s" onmouseover="this.style.color='var(--orange)'" onmouseout="this.style.color='#B0C4DE'">Home</a>
+            <a href="pages/login.html" style="color:#B0C4DE;transition:color 0.2s" onmouseover="this.style.color='var(--orange)'" onmouseout="this.style.color='#B0C4DE'">Login</a>
+            <a href="pages/cart.html" style="color:#B0C4DE;transition:color 0.2s" onmouseover="this.style.color='var(--orange)'" onmouseout="this.style.color='#B0C4DE'">Cart</a>
+            <a href="pages/orders.html" style="color:#B0C4DE;transition:color 0.2s" onmouseover="this.style.color='var(--orange)'" onmouseout="this.style.color='#B0C4DE'">My Orders</a>
+          </div>
+        </div>
+        <div>
+          <div style="font-weight:700;color:#fff;margin-bottom:14px;font-size:14px">Categories</div>
+          <div style="display:flex;flex-direction:column;gap:9px;font-size:13px">
+            <a href="#" onclick="selectCategory('biryani')" style="color:#B0C4DE;transition:color 0.2s" onmouseover="this.style.color='var(--orange)'" onmouseout="this.style.color='#B0C4DE'">Biryani</a>
+            <a href="#" onclick="selectCategory('pizza')" style="color:#B0C4DE;transition:color 0.2s" onmouseover="this.style.color='var(--orange)'" onmouseout="this.style.color='#B0C4DE'">Pizza</a>
+            <a href="#" onclick="selectCategory('burgers')" style="color:#B0C4DE;transition:color 0.2s" onmouseover="this.style.color='var(--orange)'" onmouseout="this.style.color='#B0C4DE'">Burgers</a>
+            <a href="#" onclick="selectCategory('desserts')" style="color:#B0C4DE;transition:color 0.2s" onmouseover="this.style.color='var(--orange)'" onmouseout="this.style.color='#B0C4DE'">Desserts</a>
+          </div>
+        </div>
+        <div>
+          <div style="font-weight:700;color:#fff;margin-bottom:14px;font-size:14px">Contact Us</div>
+          <div style="display:flex;flex-direction:column;gap:9px;font-size:13px">
+            <span>📧 hello@freshbite.in</span>
+            <span>📞 1800-123-4567</span>
+            <span>📍 New Delhi, India</span>
+            <span>🕐 24 × 7 Support</span>
+          </div>
+        </div>
+      </div>
+      <div style="border-top:1px solid rgba(255,255,255,0.08);padding-top:20px;display:flex;justify-content:space-between;align-items:center;font-size:12px;flex-wrap:wrap;gap:10px">
+        <span>© 2024 FreshBite. All rights reserved.</span>
+        <div style="display:flex;gap:20px">
+          <a href="#" style="color:#B0C4DE">Privacy Policy</a>
+          <a href="#" style="color:#B0C4DE">Terms of Service</a>
+          <a href="#" style="color:#B0C4DE">Refund Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Container -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- JS -->
+  <script src="js/data.js"></script>
+  <script src="js/navbar.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>
