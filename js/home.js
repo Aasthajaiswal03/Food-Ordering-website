@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // ---- Hero Images ----
 function renderHeroImages() {
-  const featured = [9, 14, 10, 1]; // IDs to feature
+  const featured = [9, 1, 7, 3]; // Biryani, Margherita Pizza(veg), Paneer Butter Masala(veg), Veg Burger
   const items    = featured.map(id => FOODS.find(f => f.id === id)).filter(Boolean);
   const wrap = document.getElementById("hero-img-grid");
   if (!wrap) return;
