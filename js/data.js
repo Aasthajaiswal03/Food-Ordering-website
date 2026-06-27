@@ -102,7 +102,7 @@ const FOODS = [
     id: 14, name: "Butter Chicken", category: "main", type: "nonveg",
     desc: "Slow-cooked chicken in rich tomato-butter-cream gravy",
     price: 259, originalPrice: 299, rating: 4.9, reviews: 2780,
-    img: "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=400&q=80",
+    img: "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?w=400&q=80",
     badge: "best", time: "30 min"
   },
   {
