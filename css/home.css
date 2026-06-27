@@ -105,9 +105,9 @@
 .hero-img-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 190px 190px;
   gap: 12px;
-  height: 380px;
+  height: 392px;
 }
 .hero-img-card {
   border-radius: 16px;
