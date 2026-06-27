@@ -67,7 +67,7 @@ const FOODS = [
     id: 9, name: "Chicken Biryani", category: "biryani", type: "nonveg",
     desc: "Dum-cooked basmati rice with juicy chicken, fried onions & saffron",
     price: 289, originalPrice: 329, rating: 4.9, reviews: 3240,
-    img: "https://images.unsplash.com/photo-1563379091339-03246963d51a?w=400&q=80",
+    img: "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=400&q=80",
     badge: "best", time: "35 min"
   },
   {
