@@ -4,7 +4,7 @@ Food ordering website — HTML, CSS, JS
 
 ## Folder Structure
 
-
+```
 freshbite/
 ├── index.html          ← Homepage
 ├── css/
@@ -25,3 +25,4 @@ freshbite/
     ├── orders.html
     └── profile.html
 
+```
